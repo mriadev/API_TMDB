@@ -71,3 +71,17 @@ body {
 .page button:hover {
 	background: #137c32;
 }
+
+@media screen and (max-width: 750px) {
+	.container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	
+}
+
+@media screen and (max-width: 470px) {
+	.container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
